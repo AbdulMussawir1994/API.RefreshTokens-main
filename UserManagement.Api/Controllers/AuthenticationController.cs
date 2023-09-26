@@ -14,7 +14,6 @@ namespace BloggingApis.Controllers
         public AuthenticationController(IAuthService authService, ILogger<AuthenticationController> logger)
         {
             _authService = authService;
-            _logger = logger;
         }
 
 
